@@ -2,14 +2,11 @@
 
 open Types
 open System.IO
-open System.Runtime.Serialization.Json
 open System.Text
+open Newtonsoft.Json;
+open System
 
-/// Object from Json 
-let internal unjson<'t> (jsonString:string)  : 't =  
-        use ms = new MemoryStream(ASCIIEncoding.Default.GetBytes(jsonString)) 
-        let obj = (new DataContractJsonSerializer(typeof<'t>)).ReadObject(ms) 
-        obj :?> 't
+let deserializeToBoard json =
 
-
-let deserializeToBoard json = unjson<Board> json
+    let x = JsonConvert.DeserializeObject<Board>json
+    x

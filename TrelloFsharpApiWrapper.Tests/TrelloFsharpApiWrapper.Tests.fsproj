@@ -6,9 +6,19 @@
     <ProjectReference Include="..\TrelloFSharpApiWrapper\TrelloFSharpApiWrapper.fsproj" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JsonParserTests.fs" />
     <Compile Include="Tests.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JsonExamples\board.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="xunit.runner.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FsUnit.xUnit" Version="3.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />

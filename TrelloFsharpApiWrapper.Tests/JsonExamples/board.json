@@ -1,0 +1,38 @@
+﻿{
+  "id": "586e8f681d4fe9b06a928307",
+  "name": "Best Test Board!",
+  "desc": "",
+  "descData": null,
+  "closed": false,
+  "idOrganization": "586e8d7b1af892b26d5b76b1",
+  "pinned": false,
+  "url": "https://trello.com/b/d2EnEWSY/best-test-board",
+  "shortUrl": "https://trello.com/b/d2EnEWSY",
+  "prefs": {
+    "permissionLevel": "org",
+    "voting": "disabled",
+    "comments": "members",
+    "invitations": "members",
+    "selfJoin": true,
+    "cardCovers": true,
+    "cardAging": "regular",
+    "calendarFeedEnabled": false,
+    "background": "blue",
+    "backgroundImage": null,
+    "backgroundImageScaled": null,
+    "backgroundTile": false,
+    "backgroundBrightness": "dark",
+    "backgroundColor": "#0079BF",
+    "backgroundBottomColor": "#0079BF",
+    "backgroundTopColor": "#0079BF",
+    "canBePublic": true,
+    "canBeOrg": true,
+    "canBePrivate": true,
+    "canInvite": true
+  },
+  "labelNames": {
+    "sky": "Test Label 1",
+    "lime": "Test Label 2",
+    "pink": ""
+  }
+}
