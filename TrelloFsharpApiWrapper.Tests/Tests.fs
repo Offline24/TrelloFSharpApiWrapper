@@ -12,3 +12,9 @@ let ``My test`` () =
     let board = JsonParser.deserializeToBoard test
 
     Assert.Null board
+
+
+[<EntryPoint>]
+let x  args =
+    ``My test`` ()
+    0

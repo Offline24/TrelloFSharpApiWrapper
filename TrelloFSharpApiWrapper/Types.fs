@@ -2,7 +2,7 @@ module Types
 
 open System
 open System.Collections.Generic
-
+open Newtonsoft.Json
 type Id = string
 type BoardName = string //1 - 16384
 type LabelName = string //0 - 16384
@@ -27,14 +27,19 @@ type BoardPreferences = {
    
 type LabelColor = yellow = 1 | purple = 2 | blue = 3 | red = 4 | green = 5 | orange = 6 | black = 7 | sky = 8 | pink = 9| lime = 10 | ``null`` = 11
 
+type LabelColorAndName = {
+    Color : LabelColor
+    Name : LabelName
+    }
+
 type Board = {
     id : Id
     name : BoardName
     closed : bool
     idOrganization : Id
     pinned : bool
-    url : Uri
-    shortUrl : Uri
+    url : string
+    shortUrl : string
     prefs : BoardPreferences
-    labelNames : IDictionary<LabelColor, LabelName>
+   // labelNames : (LabelColor*LabelName) seq
     }

@@ -9,6 +9,7 @@
     <Compile Include="Wrapper.fs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FsPickler.Json" Version="4.5.0" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
 </Project>
