@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Id.fs" />
+    <Compile Include="BoardName.fs" />
+    <Compile Include="LabelName.fs" />
+    <Compile Include="BoardPermissionLevel.fs" />
+    <Compile Include="BoardVoting.fs" />
+    <Compile Include="BoardComments.fs" />
+    <Compile Include="BoardInvitations.fs" />
+    <Compile Include="BoardBackground.fs" />
+    <Compile Include="BoardCardAging.fs" />
+    <Compile Include="BoardPreferences.fs" />
+    <Compile Include="LabelColor.fs" />
+    <Compile Include="Url.fs" />
+    <Compile Include="Board.fs" />
+  </ItemGroup>
+</Project>

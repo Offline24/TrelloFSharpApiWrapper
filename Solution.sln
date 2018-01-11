@@ -7,6 +7,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TrelloFSharpApiWrapper", "T
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TrelloFsharpApiWrapper.Tests", "TrelloFsharpApiWrapper.Tests\TrelloFsharpApiWrapper.Tests.fsproj", "{A507E48A-B108-41B3-91EF-4025499D8121}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DomainTypes", "DomainTypes\DomainTypes.fsproj", "{0A9E597A-E0E6-4391-B72C-C0D9F2F46648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A507E48A-B108-41B3-91EF-4025499D8121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A507E48A-B108-41B3-91EF-4025499D8121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A507E48A-B108-41B3-91EF-4025499D8121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9E597A-E0E6-4391-B72C-C0D9F2F46648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9E597A-E0E6-4391-B72C-C0D9F2F46648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9E597A-E0E6-4391-B72C-C0D9F2F46648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9E597A-E0E6-4391-B72C-C0D9F2F46648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
